@@ -1,0 +1,6 @@
+- name: Apt repository
+  apt_repository:
+    repo: 'ppa:coolwanglu/pdf2htmlex'
+
+- name: Ensure packages are installed
+  apt: name=pdf2htmlex state=latest

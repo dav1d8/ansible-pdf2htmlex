@@ -1,0 +1,5 @@
+galaxy_info:
+  author: David Baranyai
+  description: An Ansible role for installing pdf2htmlex.
+  license: Apache
+  categories: ubuntu
